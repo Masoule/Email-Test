@@ -1,0 +1,138 @@
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  background-color: #1b2224;
+  margin: 0;
+  line-height: 1.43;
+}
+
+.container {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.sidebar {
+  height: 100%;
+  min-width: 200px;
+  color: #596468;
+}
+
+.sidebar-item {
+  padding: 14px;
+  line-height: 20px;
+}
+
+.sidebar-icon {
+  margin-right: 5px;
+}
+
+.sidebar-notification {
+  display: block;
+  float:right;
+  text-align: center;
+  font-size: 10px;
+  width: 22px;
+  height: 22px;
+  border: 2px solid #596468;
+  border-radius: 50%;
+  color: #596468;
+}
+
+.sidebar-divider {
+  border-top: 1px solid rgba(89, 100, 104, 0.5);
+  padding: 14px;
+  padding-top: 24px;
+  font-size: 12px;
+  margin-top: 20px;
+  opacity: 0.5;
+}
+
+.fa {
+  margin-left: 5px;
+}
+
+.active {
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+  border-left: 3px solid #ce5135;
+}
+
+.active .sidebar-notification {
+  background-color: #ce5135;
+  color: white;
+  border: none;
+}
+
+.compose-btn {
+  display: flex;
+  background-color: #ce5135;
+  border: none;
+  border-radius: 3px;
+  padding: 0.8em 3em;
+  color: #fff;
+  margin: 3.5em auto;
+  margin-bottom: 2.5em;
+  font-size: 1.05em;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.email-panel {
+  padding: 3em 4em;
+  flex-grow: 1;
+  max-width: 600px;
+  background-color: #fff;
+}
+
+.email-search {
+  padding: 7px;
+  font-size: 14px;
+  color: #DDDDDD;
+  text-align: right;
+  border: 2px solid #DDDDDD;
+}
+
+input::-webkit-input-placeholder {
+  color: #DDDDDD !important;
+}
+
+.email-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.email-header {
+  font-weight: lighter;
+  font-size: 3em;
+  margin: 0;
+  color: #444;
+}
+
+.email-list {
+  margin-top: 2em;
+  padding-top: 2em;
+  border-top: 1px solid #e9eff0;
+}
+
+.email-item {
+  border-bottom: 1px solid #e9eff0;
+  padding-bottom: 2em;
+  margin-bottom: 2em;
+}
+
+.meta-data {
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9em;
+  opacity: 0.5;
+}
